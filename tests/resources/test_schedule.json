@@ -1,0 +1,75 @@
+{
+  "copyright": "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2022. All Rights Reserved.",
+  "totalItems": 12,
+  "totalEvents": 0,
+  "totalGames": 12,
+  "totalMatches": 0,
+  "metaData": {
+    "timeStamp": "20220519_015746"
+  },
+  "wait": 10,
+  "dates": [
+    {
+      "date": "2020-08-04",
+      "totalItems": 6,
+      "totalEvents": 0,
+      "totalGames": 6,
+      "totalMatches": 0,
+      "games": [
+        {
+          "gamePk": 2019030042,
+          "link": "/api/v1/game/2019030042/feed/live",
+          "gameType": "P",
+          "season": "20192020",
+          "gameDate": "2020-08-04T16:00:00Z",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "7",
+            "detailedState": "Final",
+            "statusCode": "7",
+            "startTimeTBD": false
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 0,
+                "losses": 2,
+                "ot": 0,
+                "type": "league"
+              },
+              "score": 2,
+              "team": {
+                "id": 13,
+                "name": "Florida Panthers",
+                "link": "/api/v1/teams/13"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 2,
+                "losses": 0,
+                "ot": 0,
+                "type": "league"
+              },
+              "score": 4,
+              "team": {
+                "id": 2,
+                "name": "New York Islanders",
+                "link": "/api/v1/teams/2"
+              }
+            }
+          },
+          "venue": {
+            "name": "Scotiabank Arena",
+            "link": "/api/v1/venues/null"
+          },
+          "content": {
+            "link": "/api/v1/game/2019030042/content"
+          }
+        }
+      ],
+      "events": [],
+      "matches": []
+    }
+  ]
+}

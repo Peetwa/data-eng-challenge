@@ -1,0 +1,66 @@
+{
+  "person": {
+    "id": 8471735,
+    "fullName": "Keith Yandle",
+    "link": "/api/v1/people/8471735",
+    "firstName": "Keith",
+    "lastName": "Yandle",
+    "primaryNumber": "3",
+    "birthDate": "1986-09-09",
+    "currentAge": 35,
+    "birthCity": "Boston",
+    "birthStateProvince": "MA",
+    "birthCountry": "USA",
+    "nationality": "USA",
+    "height": "6\" 1",
+    "weight": 192,
+    "active": true,
+    "alternateCaptain": true,
+    "captain": false,
+    "rookie": false,
+    "shootsCatches": "L",
+    "rosterStatus": "Y",
+    "currentTeam": {
+      "id": 13,
+      "name": "Florida Panthers",
+      "link": "/api/v1/teams/13"
+    },
+    "primaryPosition": {
+      "code": "D",
+      "name": "Defenseman",
+      "type": "Defenseman",
+      "abbreviation": "D"
+    }
+  },
+  "jerseyNumber": "3",
+  "position": {
+    "code": "D",
+    "name": "Defenseman",
+    "type": "Defenseman",
+    "abbreviation": "D"
+  },
+  "stats": {
+    "skaterStats": {
+      "timeOnIce": "17:54",
+      "assists": 2,
+      "goals": 0,
+      "shots": 0,
+      "hits": 0,
+      "powerPlayGoals": 0,
+      "powerPlayAssists": 1,
+      "penaltyMinutes": 0,
+      "faceOffWins": 0,
+      "faceoffTaken": 0,
+      "takeaways": 0,
+      "giveaways": 1,
+      "shortHandedGoals": 0,
+      "shortHandedAssists": 0,
+      "blocked": 0,
+      "plusMinus": -1,
+      "evenTimeOnIce": "15:42",
+      "powerPlayTimeOnIce": "2:12",
+      "shortHandedTimeOnIce": "0:00"
+    }
+  },
+  "side": "away"
+}
