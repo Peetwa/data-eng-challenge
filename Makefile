@@ -24,9 +24,9 @@ step1: down clean mkbucket
 #--- part two
 catalog_data:
 	[ -f s3_data/load_data.sql ] && rm s3_data/load_data.sql; \
-	  find s3_data/data-bucket -name "*.csv" -exec echo "\copy game_stats from '{}' WITH (FORMAT csv, HEADER);" \; >> s3_data/load_data.sql
+	  find s3_data/data-bucket -name "*.csv" -exec printf '\\copy game_stats from {} WITH (FORMAT csv, HEADER);\n' \; >> s3_data/load_data.sql
 
-run_sql: catalog_data 
+run_sql: catalog_data
 	docker exec \
 	  -w /data \
 	  $$(basename $(PWD))_db_1 \
@@ -54,6 +54,4 @@ points_leaders:
 	  -e PGPASSWORD=password \
 	  --entrypoint psql \
 	  postgres:12-alpine \
-	  -h localhost -U postgres -c "select * from points_leaders order by points limit 10;"
-	
-
+	  -h localhost -U postgres -c "select * from points_leaders order by points desc limit 10;"
