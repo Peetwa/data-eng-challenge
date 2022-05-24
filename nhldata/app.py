@@ -99,6 +99,8 @@ class NHLApi:
 @dataclass
 class StorageKey:
     # TODO what properties are needed to partition?
+    # I don't think it makes sense so create seperate files for additional fields
+    # TODO store primary keys in configuration file and use them in sql files
     gameid: str
 
     def key(self):
