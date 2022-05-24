@@ -6,5 +6,3 @@ select
         player_stats_skaterStats_assists stats_assists,
         player_stats_skaterStats_goals stats_goals
   from {{ source('nhl', 'game_stats') }}
-
-
